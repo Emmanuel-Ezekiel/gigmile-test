@@ -1,0 +1,94 @@
+.captain_container {
+    /* border: 1px solid black; */
+    overflow-y: auto;
+    flex: 4;
+}
+
+/* header */
+
+.captain_header {
+    margin: 58px 47px 0 50px;
+    /* width: 74vw; */
+    width: 1100px;
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.captain_header h1 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.3px;
+    color: #1E1E1E;
+}
+
+.captain_search {
+    display: flex;
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    background: #FAFAFA;
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2), inset 0px 1px 0px rgba(0, 0, 0, 0.02);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.input img {
+    height: 15.9px;
+    width: 15.9px;
+    margin-left: 16px;
+}
+
+.input input {
+    width: 112px;
+    height: 19px;
+    border: none;
+    background: #FAFAFA;
+}
+
+.input input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.004em;
+    color: #474F54;
+    opacity: 0.34;
+}
+
+.image {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    gap: 6.67px;
+}
+
+.frame {
+    margin-left: 20px;
+}
+
+.bell {
+    margin-left: 18px;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* chart */
+
+.captain_chart {
+    width: 1100px;
+    height: 339px;
+    border: 1px solid blue;
+    margin: 32px 0 0 50px;
+}

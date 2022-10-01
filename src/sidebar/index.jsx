@@ -1,5 +1,6 @@
 import React from 'react';
 import './sidebar.css';
+import { Link, NavLink } from 'react-router-dom';
 import { Data } from './data';
 
 const Index = () => {
@@ -23,6 +24,10 @@ const Index = () => {
 
             <div className="sidebar_List">
                 { Data.map((item) => (
+                     <Link
+                     to={item.link}
+                     key={item.name}
+                   > 
                         <div className="List_Container" key={item.id}>
                             <img src={item.image} alt="" className='icon'/>
                              <span>{item.name}</span>
@@ -30,6 +35,7 @@ const Index = () => {
                                 <img src={item.icon} alt="" />
                             </div>
                         </div>
+                    </Link>
                  ))}
             </div>
 
