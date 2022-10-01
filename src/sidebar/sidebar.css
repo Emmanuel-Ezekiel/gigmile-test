@@ -4,5 +4,135 @@
     border: 1px solid #D9DADE;
     color: #ffffff;
     position: fixed;
+    top: 0;
+    bottom: 0;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.side_logo {
+    margin: 42px 110.68px 0 32px;
+    height: 25px;
+    width: 97px;
+}
+
+.sidebar_profile {
+    height: 70px;
+    width: 208px;
+    border-radius: 8px;
+    background: #FAFAFA;
+    margin: 24.22px 16px 0;
+    border: 1px solid ;
+    
+}
+
+.profile_container {
+    width: 155px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    margin: 13.5px 37px 13.5px 16px;
+    gap: 12px;
+}
+
+.profile_container img {
+    height: 43px;
+    width: 43px;
+}
+
+.admin_details {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 31px;
+    gap: 1px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #1E1E1E;
+}
+
+.role {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    color: #474F54;
+}
+
+.sidebar_List {
+    width: 240px;
+    height: 337px;
+    margin-top: 24px;
+}
+
+.List_Container {
+    padding: 0 0 9px;
+    width: 208px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 8px 16px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10.8px 0 10.8px 16.8px ;
+    cursor: pointer;
+    color: #474F54;
+}
+
+.List_Container:active {
+    background: #F95D44;
+    color: #FFFFFF;
+}
+
+.List_Container:hover {
+    background: #F95D44;
+    color: #FFFFFF !important;
+}
+.List_Container:hover img {
+    color: #FFFFFF !important;
+}
+
+.List_Container span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.004em;
+   
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.logout_container {
+    width: 240px;
+    height: 60px;
+    background: #FAFAFA;
+    box-shadow: inset 0px 1px 0px #F2F4F6;
+    border-radius: 0px 0px 8px 8px;
+    margin-top: 638px;
+    display: flex;
+    align-items: center;
+    padding: 20px 32px;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.logout_container span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #474F54;
+}
+.logout_container img {
+    height: 20px;
+    width: 20px;
 }
