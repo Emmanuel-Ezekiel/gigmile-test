@@ -14,7 +14,7 @@ export const Data = [
         image: '/people.svg',
         name: 'Captains',
         icon: '',
-        link: '/captains'
+        link: '/'
     },
     {
         id: 2,
