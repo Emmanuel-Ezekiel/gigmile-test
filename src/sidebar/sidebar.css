@@ -1,6 +1,6 @@
 .sidebar_container {
     width: 240px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     border: 1px solid #D9DADE;
     color: #ffffff;
     position: sticky;
