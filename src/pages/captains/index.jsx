@@ -1,5 +1,7 @@
 import React from 'react';
 import './captain.css';
+import Pagination from '@mui/material/Pagination';
+// import { Pagination } from '@mui/material';
 
 const Index = () => {
   return (
@@ -55,7 +57,11 @@ const Index = () => {
 
 
         <div className="captain_table">
-          
+
+        </div>
+
+        <div className="pagination">
+         <Pagination count={16} defaultPage={1} boundaryCount={1} siblingCount={0.29} shape="rounded" />
         </div>
       
       </div> 
