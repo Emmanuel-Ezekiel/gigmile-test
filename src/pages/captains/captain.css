@@ -2,9 +2,13 @@
     /* border: 1px solid black; */
     overflow-y: auto;
     flex: 4;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
 }
 
 /* header */
+
 
 .captain_header {
     margin: 58px 47px 0 50px;
@@ -22,6 +26,7 @@
     line-height: 19px;
     letter-spacing: 0.3px;
     color: #1E1E1E;
+    /* margin-left: 20px; */
 }
 
 .captain_search {
